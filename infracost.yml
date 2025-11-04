@@ -1,0 +1,9 @@
+version: 0.1
+
+projects:
+  - path: .
+    name: main
+    skip_autodetect: true
+    terraform_vars:
+        availability_zones: ["us-west-2a", "us-west-2b"]
+        prefix: ca
